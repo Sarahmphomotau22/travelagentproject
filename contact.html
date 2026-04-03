@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Enter a destination or keyword">
+    <button onclick="searchDestination()">Search</button>
+    <button onclick="clearSearch()">Clear</button>
+  </div>
+</nav>
+
+
+  <header class="hero">
+    <h1>CONTACT US</h1>
+  </header>
+
+  <section class="contact-form">
+    <form onsubmit="return validateForm(event)">
+      <label>Name:</label><br>
+      <input type="text" name="name"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+
+      <label>Message:</label><br>
+      <textarea name="message"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <aside class="social">
+    <p>Get in touch</p>
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+  </aside>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
