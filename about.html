@@ -2,58 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Us</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | TravelBloom</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-  <a href="index.html" class="active">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact Us</a>
-
-  <div class="search-bar">
-    <input type="text" placeholder="Enter a destination or keyword">
-    <button onclick="searchDestination()">Search</button>
-    <button onclick="clearSearch()">Clear</button>
-  </div>
-</nav>
-
-
-  <header class="hero">
-    <h1>ABOUT US</h1>
-    <p>We are passionate travelers dedicated to providing excellent experiences for people exploring destinations worldwide.</p>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TravelBloom</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search destinations">
+        <button>Search</button>
+      </div>
+    </nav>
   </header>
 
-
-  <section class="team">
-    <h2>Our Team</h2>
-    <div class="member">
-      <img src="images/john.jpg" alt="John Doe">
-      <h3>John Doe — CEO</h3>
-      <p>Responsible for strategy and vision.</p>
-    </div>
-    <div class="member">
-      <img src="images/celina.jpg" alt="Celina Thomas">
-      <h3>Celina Thomas — Team Lead</h3>
-      <p>Responsible for project management and coordination.</p>
-    </div>
-    <div class="member">
-      <img src="images/mike.jpg" alt="Mike Tysen">
-      <h3>Mike Tysen — Delivery Head</h3>
-      <p>Responsible for operations and delivery.</p>
-    </div>
+  <!-- About Section -->
+  <section class="hero about-hero">
+    <h1>About TravelBloom</h1>
+    <p>
+      TravelBloom was founded with a vision to make travel discovery effortless and inspiring. 
+      We believe every journey begins with a dream — and our platform helps you turn that dream into reality. 
+      From tropical beaches to bustling cities, we curate destinations that match your interests and travel style.
+    </p>
+    <p>
+      Our team of travel enthusiasts and developers work together to bring you a seamless experience, 
+      combining technology with wanderlust. Explore, plan, and book — all in one place.
+    </p>
   </section>
 
-  <section class="history">
-    <h2>Company History</h2>
-    <p>Founded in 2018 by avid travelers, our journey began with a vision to simplify travel planning...</p>
-  </section>
-
-  <section class="location">
-    <h2>Our Location</h2>
-    <p>We are based in New York and Toronto, serving travelers worldwide.</p>
-  </section>
-
-  <script src="js/script.js"></script>
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+    <p>&copy; 2026 TravelBloom. All rights reserved.</p>
+  </footer>
 </body>
 </html>
